@@ -1,0 +1,21 @@
+is class me sirf GitHub ke bare me btaya hn or oslo lese install krna kese chalana hn kese ospe kaam krna hn yeh btaya hn or oski kuch keys btayi hn jo me nichw likhne wala hu
+
+1. git -v ||
+   git --version
+2. git config --global user.name
+   "your GitHub username"
+3. git config --global user.email
+   "ypur GitHub email"
+4. git init
+5. git add . || git add index.html
+6. git commit -m "your messange"
+7. git branch -M main
+
+
+
+
+==>
+1. class-6
+2. git add .
+3. git commit -m "jo bi message"
+4. git push

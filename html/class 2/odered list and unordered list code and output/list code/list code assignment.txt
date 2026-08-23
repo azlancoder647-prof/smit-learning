@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <TITLE>chapter 3 list assignment</TITLE>
+</head>
+<body>
+
+    <h2>1. Ordered List </h2>
+    
+    <ol>
+        <li>
+            Web Development
+            <ul>
+                <li>HTML5 Basics</li>
+                <li>CSS Styling</li>
+            </ul>
+        </li>
+        <li>
+            Graphic Design
+            <ul>
+                <li>Logo Design</li>
+                <li>Vector Graphics</li>
+            </ul>
+        </li>
+        <li>Digital Marketing</li>
+    </ol>
+
+    <hr>
+
+    <h2>2. Unordered List </h2>
+    <ul>
+        <li>
+            Our Primary Services
+            <ol>
+                <li>Custom Logo Design</li>
+                <li>Brand Identity</li>
+            </ol>
+        </li>
+        <li>
+            Client Support
+            <ol>
+                <li>24/7 Live Chat</li>
+                <li>Email Assistance</li>
+            </ol>
+        </li>
+        <li>Portfolio Building</li>
+    </ul>
+
+    <hr>
+
+    <h2>3. Dedicated Multi-Level Nested List </h2>
+    <ul>
+        <li>
+            Frontend Skills
+            <ol>
+                <li>
+                    HTML
+                    <ul>
+                        <li>Tags & Attributes</li>
+                        <li>Forms & Tables</li>
+                    </ul>
+                </li>
+                <li>
+                    CSS
+                    <ul>
+                        <li>Flexbox</li>
+                        <li>Grid Systems</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>
+            Trading & Financial Tools
+            <ol>
+                <li>Technical Analysis</li>
+                <li>Risk Management</li>
+            </ol>
+        </li>
+    </ul>
+
+</body>
+</html>

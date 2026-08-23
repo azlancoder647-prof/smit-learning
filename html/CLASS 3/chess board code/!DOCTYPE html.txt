@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chess Board with Pieces</title>
+</head>
+<body style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100vh; background-color: #f0f0f0; margin: 0;">
+
+    <h1 style="font-family: Arial, sans-serif; color: #402e1b; margin-bottom: 20px;">My Chess Board</h1>
+
+    <table border="0" cellspacing="0" cellpadding="0" style="border: 4px solid #402e1b; font-size: 38px; text-align: center;">
+        
+        <tr>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9820;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9822;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9821;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9819;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9818;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9821;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9822;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9820;</td>
+        </tr>
+
+        <tr>
+            <td width="65" height="65" bgcolor="#b58863">&#9823;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9823;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9823;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9823;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9823;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9823;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9823;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9823;</td>
+        </tr>
+
+        <tr>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+        </tr>
+
+        <tr>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+        </tr>
+
+        <tr>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+        </tr>
+
+        <tr>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+            <td width="65" height="65" bgcolor="#b58863"></td>
+            <td width="65" height="65" bgcolor="#f0d9b5"></td>
+        </tr>
+
+        <tr>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9817;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9817;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9817;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9817;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9817;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9817;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9817;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9817;</td>
+        </tr>
+
+        <tr>
+            <td width="65" height="65" bgcolor="#b58863">&#9814;</td> 
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9816;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9815;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9813;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9812;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9815;</td>
+            <td width="65" height="65" bgcolor="#b58863">&#9816;</td>
+            <td width="65" height="65" bgcolor="#f0d9b5">&#9814;</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

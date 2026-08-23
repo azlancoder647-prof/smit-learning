@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>This is my form assigment practice</title>
+</head>
+<body>
+    <H1>This is my form assigment practice</H1>
+
+    <form>
+        <fieldset>
+            <legend><b>Contact details</b></legend>
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+            
+            <label>Mobile:</label><br>
+            <input type="tel" name="mobile" required><br><br>
+            
+            <label>Telephone:</label><br>
+            <input type="tel" name="telephone" required>
+        </fieldset>
+
+        <hr>
+        <br>
+
+        <fieldset>
+            <legend><b>Your Details</b></legend>
+            <label>Name:</label>
+            <input type="text" name="name" required><br>
+            <label>Email:</label>
+            <input type="email" name="email2" required>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Your Review</b></legend>
+            
+            <label>How did you hear about us?</label>
+            <select name="referral">
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="friend">Friend</option>
+            </select>
+            <br><br>
+
+            <label>Would you visit again?</label><br>
+            <input type="radio" name="visit" value="yes" required> Yes
+            <input type="radio" name="visit" value="no"> No
+            <input type="radio" name="visit" value="maybe"> Maybe
+            <br><br>
+
+            <label>Comments:</label><br>
+            <textarea name="comments" rows="4" cols="40" maxlength="50" placeholder="Max 50 characters allowed..." required></textarea>
+            <br><br>
+
+            <input type="checkbox" name="subscribe">
+            <label>Sign me up for email updates</label>
+            <br><br>
+
+            <button type="submit">Submit review</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>

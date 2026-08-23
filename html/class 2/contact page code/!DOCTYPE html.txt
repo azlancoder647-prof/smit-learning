@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azlan Digital Hub - Contact Us</title>
+</head>
+<body>
+
+    <header>
+        <img src="logo.webp" alt="Agency Logo" width="200">
+        
+        <h1>Contact Information</h1>
+        
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="about.html">About Me</a> | 
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <h2>Get In Touch With Us</h2>
+
+    <p>Managed by <b>Azlan Shah</b> — <i>Available 24/7</i>.</p>
+    <p>For urgent work, send an email to <span>azlanhere32@gmail.com</span>.</p>
+
+    <h3>Contact Options</h3>
+    <ul>
+        <li>Email Assistance</li>
+        <li>Social Media Messaging</li>
+        <li>Freelance Work Queries</li>
+    </ul>
+
+    <h4>Working Hours</h4>
+    <ol>
+        <li>Monday to Friday: Open</li>
+        <li>Saturday to Sunday: Limited Support</li>
+    </ol>
+
+    <h5>System Status</h5>
+    <p>Server Rating: 10<sup>10</sup> Uptime</p>
+    <p>Location Tag: Server<sub>PK</sub> Zone</p>
+
+    <h6>End of Contact Page</h6>
+
+</body>
+</html>

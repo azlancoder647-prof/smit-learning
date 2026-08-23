@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azlan Digital Hub - Home</title>
+</head>
+<body>
+
+    <header>
+        <img src="logo.webp" alt="Agency Logo" width="200">
+        
+        <h1>Azlan's Digital Agency</h1>
+        
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="about.html">About Me</a> | 
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <h2>Welcome to Our Official Website</h2>
+
+    <p>Authored by <b>Azlan Shah</b> in <i>August 2026</i>.</p>
+    <p>We specialize in <span>Web Development</span> and custom graphic design services.</p>
+
+    <h3>Our Core Services</h3>
+    <ul>
+        <li>HTML5 Frontend Layouts</li>
+        <li>Custom Logo Design</li>
+        <li>Digital Marketing Solutions</li>
+    </ul>
+
+    <h4>Our Quality Priorities</h4>
+    <ol>
+        <li>High Performance Code</li>
+        <li>Responsive Web Layouts</li>
+    </ol>
+
+    <h5>Technical Specifications</h5>
+    <p>Speed Index: X<sup>2</sup> Boost Performance</p>
+    <p>Clean Code Standard: H<sub>2</sub>O Level Pure</p>
+
+    <h6>End of Home Page Content</h6>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+white chess board pieces:
+
+1.♔
+2.♕
+3.♖
+4.♗
+5.♘
+6.♙
+
+black chess board pieces:
+
+1.♚
+2.♛
+3.♜
+4.♝
+5.♞
+6.♟

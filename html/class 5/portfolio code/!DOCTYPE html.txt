@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <header>
+
+        <DIV><H1> my Portfolio</H1></DIV>
+        <table border="0" cellpadding="10" cellspacing="0">
+            <tr>
+                <td valign="middle">
+                    <img src="profile.jpeg" alt="Profile Picture" width="130" height="130" style="border-radius: 50%;">
+                </td>
+                <td valign="middle">
+                    <h1>Azlan Shah</h1>
+                    <h3>Web Developer & Graphic Designer</h3>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <hr>
+
+    <section>
+        <h2>About:</h2>
+        <p>Hello! Main ek Web Developer aur Graphic Designer hoon. Mujhe clean layouts, HTML structures, aur creative designs banana pasand hai. Maine frontend development ke core HTML concepts complete kar liye hain.</p>
+    </section>
+
+    <hr>
+
+<section>
+    <h2> My Projects</h2>
+
+    <table border="0" cellpadding="10">
+
+        <tr>
+            <td>
+                <fieldset style="width: 250px; padding: 10px;">
+                    <img src="chess board.jpeg" alt="Chessboard" width="240" height="150" style="object-fit: cover;">
+                    <h3>Chess Board</h3>
+                    <p><b>Technology:</b> HTML</p>
+                </fieldset>
+            </td>
+
+            <td>
+                <fieldset style="width: 250px; padding: 10px;">
+                    <img src="form.jpeg" alt="Registration Form" width="240" height="150">
+                    <h3>Registration Form</h3>
+                    <p><b>Technology:</b> HTML</p>
+                </fieldset>
+            </td>
+
+            <td>
+                <fieldset style="width: 250px; padding: 10px;">
+                    <img src="website.jpeg" alt="Multi-page Site" width="240" height="150">
+                    <h3>Connected Website</h3>
+                    <p><b>Technology:</b> HTML</p>
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <fieldset style="width: 250px; padding: 10px;">
+                    <img src="first.jpeg" alt="my first website" width="240" height="150">
+                    <h3>my first website</h3>
+                    <p><b>Technology:</b> HTML</p>
+                </fieldset>
+            </td>
+
+            <td>
+                <fieldset style="width: 250px; padding: 10px;">
+                    <img src="resume.jpeg" alt="resume" width="240" height="150" style="object-fit: cover;">
+                    <h3>resume structure</h3>
+                    <p><b>Technology:</b> HTML & Design</p>
+                </fieldset>
+            </td>
+
+            <td>
+                <fieldset style="width: 250px; padding: 10px;">
+                    <img src="list.jpeg" alt="orderlist and unordered list" width="240" height="150">
+                    <h3>orederlist and unordered list</h3>
+                    <p><b>Technology:</b> HTML5</p>
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+</section>
+
+    <hr>
+
+    <footer>
+        <h2>Contact Me</h2>
+        <P> phone number: 03702910312</P>
+        <P> Email: <A href="Azlanhere32@gmail.com">Azlanhere32@gmail.com</A></P>
+        <P> Facebook link: <A href="https://www.facebook.com/share/19BsEV9a87/"> click Here</A></P>
+        <p>&copy; 2026 Azlan Shah - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

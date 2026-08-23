@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Tables Assignment</title>
+</head>
+<body>
+
+    <h2>1. table 1</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Item ID</th>
+                <th>Item Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>HTML & CSS Book</td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Logo Design Service</td>
+                <td>$50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>2 Items</th>
+                <th>$75</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><hr><br>
+
+    <h2>2. Table 2</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th colspan="2">Contact Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Azlan Shah</td>
+                <td>Email: azlan@example.com</td>
+                <td>Phone: 0300-1234567</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Ali Khan</td>
+                <td>Email: ali@example.com</td>
+                <td>Phone: 0300-7654321</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">All student records updated.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><hr><br>
+
+    <h2>3. Table 3</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Sub-Category</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Web Development</td>
+                <td>Frontend (HTML/CSS)</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>Backend (Node.js)</td>
+                <td>In Progress</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Graphic Design</td>
+                <td>Logo Design</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>Brand Identity</td>
+                <td>Pending</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Summary</th>
+                <th colspan="2">4 Total Tasks Listed</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><hr><br>
+
+    <h2>4. Table 4</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th rowspan="2">Department</th>
+                <th colspan="2">Quarterly Performance</th>
+            </tr>
+            <tr>
+                <th>Q1 Sales</th>
+                <th>Q2 Sales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Development Team</td>
+                <td>$10,000</td>
+                <td>$12,000</td>
+            </tr>
+            <tr>
+                <td colspan="2">Team Bonus: Approved</td>
+            </tr>
+            <tr>
+                <td>Design Team</td>
+                <td>$8,000</td>
+                <td>$9,500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total Revenue</th>
+                <th colspan="2">$39,500</th> 
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

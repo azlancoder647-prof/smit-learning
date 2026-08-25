@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors Practice Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>Web Development Css Practice</h1>
+        <p>CSS SELECTOR Practice</p>
+    </header>
+
+    <main class="content-box">
+        <h2>Web Development</h2>
+
+        <p class="intro">Web development is an exciting journey into building web applications.</p>
+        <p>HTML provides the structure of the web page.</p>
+        <p>CSS brings style, colors, and layout positioning into life.</p>
+
+        <div class="card">
+            <h3>Key Frontend</h3>
+            <ul>
+                <li>HTML5 Structure</li>
+                <li>CSS3 Styling</li>
+                <li>JavaScript activity</li>
+            </ul>
+        </div>
+    </main>
+
+</body>
+</html>

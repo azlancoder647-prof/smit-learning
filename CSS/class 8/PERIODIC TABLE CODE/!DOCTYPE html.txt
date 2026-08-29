@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>periodic table</title>
+</head>
+
+<body style="background-color: black; color: white;">
+
+    <H1 style="text-align: center; margin-left: 50px;">AZLAN SHAH periodic table</H1>
+    <CENTER>
+        <table style="width: 1000px; margin-top: 200px; text-align: center;" border="1">
+            <TR>
+                <td style="background-color: #b3c8f9;"> 1. <BR>
+                    H <BR>
+                    HYDROGEN</td>
+                <td style="empty-cells: hide;" colspan="16"></td>
+                <td style="background-color:#e8849d">2. <BR>
+                    HE <BR>
+                    HELIUM</td>
+            </TR>
+            <TR>
+                <td style="background-color: #a1d6e2;">3. <BR>
+                    LI <BR>
+                    LITHIUM</td>
+                <td style="background-color: #e8849d;">4. <BR>
+                    BE <BR>
+                    BERYLLIUM</td>
+                <td style="empty-cells: hide;" colspan="10"></td>
+                <td style="background-color: #d6bd92;"> 5. <BR>
+                    B <BR>
+                    BOROM</td>
+                <td style="background-color: #b3c8f9;">6. <BR>
+                    C <BR>
+                    CARBON</td>
+                <td style="background: #b3c8f9;">7. <BR>
+                    N <BR>
+                    NITROGEN</td>
+                <td style="background-color: #b3c8f9;">8. <BR>
+                    O <BR>
+                    oXYGEN</td>
+                <td style="background-color: #b3c8f9;">9. <BR>
+                    F <BR>
+                    FLUERINE</td>
+                <td style="background-color:#e8849d;">10. <BR>
+                    NE <BR>
+                    NEON</td>
+            </TR>
+            <TR>
+                <td style="background-color: #a1d6e2;">11. <BR>
+                    NA <BR>
+                    SODIUM</td>
+                <td style="background-color: #e8849d;">12. <BR>
+                    Mg <BR>
+                    MAGNESIUM</td>
+                <td style="empty-cells: hide;" colspan="10"></td>
+                <td style="background-color: #c5e7d0;">13. <BR>
+                    AL <BR>
+                    ALUMINIUM</td>
+                <td style="background-color: #d6bd92;">14. <BR>
+                    SI <BR>
+                    SILICON</td>
+                <td style="background-color: #b3c8f9;">15. <BR>
+                    P <BR>
+                    PHOSPHORUS</td>
+                <td style="background-color: #b3c8f9;">16. <BR>
+                    S <BR>
+                    SULFUR</td>
+                <td style="background-color: #b3c8f9;">17. <BR>
+                    CI <BR>
+                    CHLORINE</td>
+                <td style="background-color: #e8849d;">18. <BR>
+                    AR <BR>
+                    ARGoN</td>
+            </TR>
+            <TR>
+                <td style="background-color: #a1d6e2;">19. <BR>
+                    K <BR>
+                    POTASSIUM</td>
+                <td style="background-color: #e8849d;">20. <BR>
+                    CA <BR>
+                    CALCIUM</td>
+                <td style="background-color: #baa5f5;">21. <BR>
+                    SC <BR>
+                    SCANDIUM</td>
+                <td style="background-color: #baa5f5;">22. <BR>
+                    TI <BR>
+                    TITANIUM</td>
+                <td style="background-color: #baa5f5;">23. <BR>
+                    V <BR>
+                    VANADIUM</td>
+                <td style="background-color: #baa5f5;">24. <BR>
+                    CR <BR>
+                    CHROMIUM</td>
+                <td style="background-color: #baa5f5;">25. <BR>
+                    Mn <BR>
+                    MANGANESE</td>
+                <td style="background-color: #baa5f5;">26. <BR>
+                    FE <BR>
+                    IRON</td>
+                <td style="background-color: #baa5f5;">27. <BR>
+                    CO <BR>
+                    COBALT</td>
+                <td style="background-color: #baa5f5;">28. <BR>
+                    NI <BR>
+                    NICKEL</td>
+                <td style="background-color: #baa5f5;">29. <BR>
+                    CU <BR>
+                    COPPER</td>
+                <td style="background-color: #baa5f5;">30. <BR>
+                    ZN <BR>
+                    ZINC</td>
+                <td style="background-color: #c5e7d0;">31. <BR>
+                    GA <BR>
+                    GALLIUM</td>
+                <td style="background-color: #d6bd92;">32. <BR>
+                    GE <BR>
+                    GERMANIUM</td>
+                <td style="background-color: #d6bd92;">33. <BR>
+                    AS <BR>
+                    ARSENIC</td>
+                <td style="background-color: #b3c8f9;;">34. <BR>
+                    SE <BR>
+                    SELENIUM</td>
+                <td style="background-color: #b3c8f9;">35. <BR>
+                    BR <BR>
+                    BROMINE</td>
+                <td style="background-color: #e8849d;">36. <BR>
+                    KR <BR>
+                    KRYPTON</td>
+            </TR>
+            <TR>
+                <td style="background-color: #a1d6e2;">37. <BR>
+                    RB <BR>
+                    RUBIDIUM</td>
+                <td style="background-color: #e8849d;">38. <BR>
+                    SR <BR>
+                    STRONTIUM</td>
+                <td style="background-color: #baa5f5;">39. <BR>
+                    Y <BR>
+                    YTTRIUM</td>
+                <td style="background-color: #baa5f5;">40. <BR>
+                    ZR <BR>
+                    ZIRCONIUM</td>
+                <td style="background-color: #baa5f5;">41. <BR>
+                    NB <BR>
+                    NIONIUM</td>
+                <td style="background-color: #baa5f5;">42. <BR>
+                    MO <BR>
+                    MOLYBDENUM</td>
+                <td style="background-color: #baa5f5;">43. <BR>
+                    TC <BR>
+                    TECHNETIUM</td>
+                <td style="background-color: #baa5f5;">44. <BR>
+                    RU <BR>
+                    RUTHENIUM</td>
+                <td style="background-color: #baa5f5;">45. <BR>
+                    RH <BR>
+                    RHODIUM</td>
+                <td style="background-color: #baa5f5;">46. <BR>
+                    PH <BR>
+                    PALLADIUM</td>
+                <td style="background-color: #baa5f5;">47. <BR>
+                    AG <BR>
+                    SILVER</td>
+                <td style="background-color: #baa5f5;">48. <BR>
+                    CD <BR>
+                    CADMIUM</td>
+                <td style="background-color: #c5e7d0;">49. <BR>
+                    IN <BR>
+                    INDIUM</td>
+                <td style="background-color: #c5e7d0;">50. <BR>
+                    SN <BR>
+                    TIN</td>
+                <td style="background-color: #d6bd92;">51. <BR>
+                    SB <BR>
+                    ANTIMONY</td>
+                <td style="background-color: #d6bd92;">52. <BR>
+                    TE <BR>
+                    TELLURIUM</td>
+                <td style="background-color: #b3c8f9;">53. <BR>
+                    I <BR>
+                    IODINE</td>
+                <Td style="background-color: #e8849d;">54. <BR>
+                    XE <BR>
+                    XENON</Td>
+            </TR>
+            <TR>
+                <td style="background-color: #a1d6e2;">55. <br>
+                    CS <BR>
+                    CESIUM</td>
+                <td style="background-color: #e8849d;">56. <BR>
+                    BA <BR>
+                    BARIUM</td>
+                <td style="background-color: #a1d6e2;">57. <BR>
+                    LA <BR>
+                    LANTHANUM</td>
+                <td style="background-color: #baa5f5;">72. <BR>
+                    HF <BR>
+                    HAFNIUM</td>
+                <td style="background-color:#baa5f5;">73. <BR>
+                    TA <BR>
+                    TANTALUM</td>
+                <td style="background-color: #baa5f5;">74. <BR>
+                    W <BR>
+                    TUNGSTEN</td>
+                <td style="background-color: #baa5f5;">75. <BR>
+                    RE <BR>
+                    RHENIUM</td>
+                <td style="background-color: #baa5f5;">76. <BR>
+                    Os <BR>
+                    OSMIUM</td>
+                <td style="background-color: #baa5f5;">77. <BR>
+                    IR <BR>
+                    IRIDIUM</td>
+                <td style="background-color: #baa5f5;">78. <BR>
+                    PT <BR>
+                    PLATINUM</td>
+                <td style="background-color: #baa5f5;">79. <BR>
+                    AU <BR>
+                    GOLD</td>
+                <td style="background-color: #baa5f5;">80. <BR>
+                    Hg <BR>
+                    MERCURY</td>
+                <td style="background-color: #c5e7d0;">81. <BR>
+                    TI <BR>
+                    THALLIUM</td>
+                <td style="background-color: #c5e7d0;">82. <BR>
+                    PB <BR>
+                    LEAD</td>
+                <td style="background-color: #c5e7d0;">83. <BR>
+                    BI <BR>
+                    BISMUTH</td>
+                <td style="background-color: #c5e7d0;">84. <BR>
+                    PO <BR>
+                    POLONIUM</td>
+                <td style="background-color: #c5e7d0;">85. <BR>
+                    AT <BR>
+                    ASTATINE</td>
+                <td style="background-color: #e8849d;">86. <BR>
+                    Rn <BR>
+                    RADON</td>
+            </TR>
+            <TR>
+                <td style="background-color: #a1d6e2;">87. <BR>
+                Fr <BR>
+                FRANCIUM</td>
+                <td style="background-color: #e8849d;">88. <BR>
+                RA <BR>
+                RADIUM</td>
+                <td style="background-color: #fee4d2;">89. <BR>
+                Ac <BR>
+                ACTINIUM</td>
+                <td style="background-color: #baa5f5;">104. <BR>
+                RF <BR>
+                RUTHERFORDIUM</td>
+                <td style="background-color: #baa5f5;">105. <BR>
+                DB <BR>
+                DUBNIUM</td>
+                <td style="background-color: #baa5f5;">106. <BR>
+                SG <BR>
+                SEABORGIUM</td>
+                <td style="background-color: #baa5f5;">107. <BR>
+                BH <br>
+                BOHRIUM</td>
+                <td style="background-color: #baa5f5;">108. <BR>
+                HS <BR>
+                HASSIUM</td>
+                <td style="background-color: #e7e7ea;">109. <BR>
+                MT <BR>
+                MEITNERIUM</td>
+                <td style="background-color: #e7e7ea;">110. <BR>
+                DS <BR>
+                DARMSTADTIUM</td>
+                <td style="background-color: #e7e7ea;">111. <BR>
+                RG <BR>
+                REONTGENIUM</td>
+                <td style="background-color: #e7e7ea;">112. <BR>
+                CN <BR>
+                COPERNICIUM</td>
+                <td style="background-color: #e7e7ea;">113. <BR>
+                NH <BR>
+                NIHONIUM</td>
+                <td style="background-color: #e7e7ea;">114. <BR>
+                FI <BR>
+                FIEROVIUM</td>
+                <td style="background-color: #e7e7ea;">115. <BR>
+                MC <BR>
+                MOSCOVIUM</td>
+                <td style="background-color: #e7e7ea;">116. <BR>
+                LV <BR>
+                LIVERMORIUM</td>
+                <td style="background-color: #e7e7ea;">117. <BR>
+                TS <BR>
+                TENNESINE</td>
+                <td style="background-color: #e7e7ea;">118. <BR>
+                Og <BR>
+                OGANESSON</td>
+            </TR>
+        </table>
+
+        <table style="text-align: center; margin-top: 100px; margin-left: 400px;" border="1">
+            <tr>
+            <td style="background-color: #a1d6e2;">58. <BR>
+            CE <BR>
+            CERIUM</td>
+            <td style="background-color: #a1d6e2;">59. <BR>
+            Pr <BR>
+            Praseodymium</td>
+            <td style="background-color: #a1d6e2;">60. <BR>
+            Nd <BR>
+            Neodymium</td>
+            <td style="background-color: #a1d6e2;">61. <BR>
+            Pm <BR>
+            Promethium</td>
+            <td style="background-color: #a1d6e2;">62. <BR>
+            Sm <BR>
+            Samarium</td>
+            <td style="background-color: #a1d6e2;">63. <BR>
+            EU <BR>
+            EUROPIUM</td>
+            <td style="background-color: #a1d6e2;">64. <BR>
+            Gd <BR>
+            Gadolinium</td>
+            <td style="background-color: #a1d6e2;">65. <BR>
+            Tb <BR>
+            Terbium</td>
+            <td style="background-color: #a1d6e2;">66. <BR>
+            Dy <BR>
+            Dysprosium</td>
+            <td style="background-color: #a1d6e2;">67. <BR>
+            HO <BR>
+            HOlmium</td>
+            <TD style="background-color: #a1d6e2;">68. <BR>
+            Er <BR>
+            Erbium</TD>
+            <TD style="background-color: #a1d6e2;">69. <BR>
+            Tm <BR>
+            Thulium</TD>
+            <TD style="background-color: #a1d6e2;">70. <BR>
+            Yb <BR>
+            Ytterbium</TD>
+            <TD style="background-color: #a1d6e2;">71. <br>
+            LU <br>
+            Lutetium</TD>
+            </tr>
+            <tr>
+            <td style="background-color:#fee4d2;">90. <BR>
+            Th <BR>
+            Thorium</td>
+            <td style="background-color: #fee4d2;">91. <BR>
+            Pa <BR>
+            Protactinium</td>
+            <td style="background-color: #fee4d2;">92. <BR>
+            U <BR>
+            Uranium</td>
+            <td style="background-color: #fee4d2;">93. <BR>
+            Np <BR>
+            Neptunium</td>
+            <td style="background-color: #fee4d2;">94. <BR>
+            PU <BR>
+            Plutonium</td>
+            <td style="background-color: #fee4d2;">95. <BR>
+            Am <BR>
+            Americium</td>
+            <td style="background-color: #fee4d2;">96. <BR>
+            Cm <BR>
+            Curium</td>
+            <td style="background-color: #fee4d2;">97. <BR>
+            BK <BR>
+            Berkelium</td>
+            <td style="background-color: #fee4d2;">98. <BR>
+            Cf <BR>
+            Califomium</td>
+            <td style="background-color: #fee4d2;">99. <BR>
+            Es <BR>
+            Einsteinium</td>
+            <td style="background-color: #fee4d2;">100. <BR>
+            Fm <BR>
+            Fermium</td>
+            <td style="background-color: #fee4d2;">101. <BR>
+            Md <BR>
+            Mendelevium</td>
+            <td style="background-color: #fee4d2;">102. <BR>
+            No <BR>
+            Nobelium</td>
+            <td style="background-color: #fee4d2;">103. <BR>
+            Lr <BR>
+            Lawrencium</td>
+            </tr>
+        </table>
+    </CENTER>
+</body>
+
+</html>

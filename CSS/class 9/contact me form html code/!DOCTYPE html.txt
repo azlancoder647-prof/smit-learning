@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2 class="form-title">CONTACT ME!</h2>
+
+        <form action="#">
+            
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+                <div class="col">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <div class="col">
+                    <input type="tel" placeholder="Phone Number">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-full">
+                    <textarea rows="5" placeholder="Write your message here..."></textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+
+        </form>
+    </div>
+
+</body>
+</html>

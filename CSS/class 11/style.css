@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://template.canva.com/EAGxRfpdR-0/1/0/1280w-0XLbZjyWb3Q.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+}
+
+.calculator {
+    width: 100%;
+    max-width: 380px;
+    border: 1px solid rgb(17, 1, 1);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+}
+
+input {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: rgb(17, 1, 1);
+    font-size: 25px;
+    padding: 15px;
+    text-align: right;
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+input::placeholder {
+    font-size: 25px;
+    color: rgb(17, 1, 1);
+    text-align: right;
+}
+
+.calculator div {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    color: rgb(6, 0, 0);
+    font-size: 22px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.esiculto {
+    background-color: rgb(137, 96, 19);
+    color: #ffffff;
+}
+
+.op {
+    color: rgb(28, 125, 28);
+}
+
+button:hover {
+    background-color: #d3c8c2;
+}
+
+.esiculto:hover {
+   background-color: #714e0f;
+}
+
+@media screen and (max-width: 480px) {
+    .calculator {
+        padding: 15px;
+    }
+
+    button {
+        width: 52px;
+        height: 52px;
+        font-size: 18px;
+        margin: 8px 0;
+    }
+
+    input {
+        height: 50px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    input::placeholder {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sinup-form{
+    width: 550px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+#meta-logo{
+    display: flex;
+}
+
+#meta-logo > img{
+    height: 35px;
+    width: auto;
+
+}
+
+#sinup-header > a > img{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+
+
+#sinup-header > h1{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sinup-header > p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#input-names{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-names > img{
+    padding-left: 10px;
+}
+
+#input-box{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+
+#firstname > input{
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid #e0e2e4;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#surname > input{
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid #e0e2e4;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#firstname > input , #surname > input {
+    font-size: 15px;
+}
+
+#firstname > input:hover , #surname > input:hover , select:hover , #gender:hover , #mob > input:hover , #pas > input:hover{
+    border:1px solid black;
+}
+#dropdown-list {
+    display: flex;
+    gap: 15px;
+}
+
+.select{
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #e0e2e4;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.select:hover{
+    cursor: pointer;
+}
+
+
+.gender{
+    width: 550px;
+}
+
+#gender{
+    height: 60px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #e0e2e4;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+#gender{
+    cursor: pointer;
+}
+
+#mob{
+    width: 550px;
+}
+
+#mob > input{
+    height: 60px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #e0e2e4;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.dcp > a{
+    text-decoration: none;
+    color:rgb(24, 119, 242);
+    font-weight: bold;
+}
+
+.dcp > a:hover{
+    text-decoration: underline;
+}
+
+.dcp{
+    margin-bottom: 10px;
+}
+
+#pas{
+    width: 525px;
+}
+
+#pas > input{
+    height: 60px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #e0e2e4;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+#login-buttom{
+    width: 100%;
+}
+#login-button > button{
+               width: 100%;
+               background-color: #1877F2;
+               border-radius: 25px;
+               height: 40px;
+               font-family: sans-serif;
+               color: white;
+               font-weight: bold;
+               font-size: 15px;
+               border: none;
+               cursor: pointer;
+               margin-bottom: 15px;
+               margin-top: 10px;
+}
+
+#login-button > button:hover{
+    background-color: #1168d9;
+}
+
+
+#forgot-buttom{
+    width: 100%;
+}
+#forgot-button > button{
+               width: 100%;
+               background-color: #f2f4f6;
+               border-radius: 25px;
+               height: 40px;
+               font-family: sans-serif;
+               color: rgb(37, 37, 37);
+               font-size: 18px;
+               border: none;
+               cursor: pointer;
+               margin-bottom: 40px;
+}
+
+#forgot-button > button:hover{
+               background-color: #e6e8e9;
+}
+
+#footer{
+    padding: 10px 80px;
+    font-weight: lighter;
+}
+
+.footer{
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.footer:hover{
+    cursor: pointer;
+}

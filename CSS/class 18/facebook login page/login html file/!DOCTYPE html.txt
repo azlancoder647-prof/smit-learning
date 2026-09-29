@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook login UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="left-box">
+            
+                <img src="../fb mini logo.png" alt="fb mini logo" height="60px" width="auto" class="fb-mini-logo">
+            
+           <h1>Explore the things <span>you love</span>.</h1>
+                 <div>
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y0/r/U45qBJmWVHU.webp" alt="facebook image" height="500px" width="auto">
+            </div>
+        </div>
+        <div id="right-box">
+            <h1>log in to facebook</h1>
+
+            <form id="input-boxes">
+                <div id="email-box">
+                      <input type="email" name="email" placeholder="Email address or mobile number">
+                </div>
+                <div id="password-box">
+                      <input type="password" name="password" placeholder="Password">
+                </div>
+                <div id="login-button">
+                    <button>Log in</button>
+                </div>
+                <div id="forgot-button">
+                    <button>Forgotten password?</button>
+                </div>
+                <div id="creat-button">
+                    <button>Create new account</button>
+                </div>
+                <div id="meta-logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="meta logo">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

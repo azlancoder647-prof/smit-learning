@@ -145,3 +145,227 @@ span{
     width: auto;
 
 }
+
+@media (max-width: 1199.98px) {
+
+    #input-boxes {
+        width: 420px;
+    }
+
+    #left-box > h1 {
+        font-size: 32px;
+    }
+
+    #left-box > div img {
+        height: 430px;
+    }
+
+}
+
+
+@media (max-width: 991.98px) {
+
+    #left-box {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #left-box > h1 {
+        font-size: 28px;
+    }
+
+    #left-box > div img {
+        height: 350px;
+    }
+
+    .fb-mini-logo {
+        left: 25px;
+        top: 35px;
+    }
+
+    #right-box {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    #input-boxes {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    #right-box > h1 {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+}
+
+
+@media (max-width: 767.98px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    #left-box > div img , #left-box >  h1{
+        display: none;
+    }
+
+    #left-box > img {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        top: 50%;
+    }
+
+    #left-box {
+        width: 100%;
+        height: auto;
+        min-height: 45vh;
+        box-sizing: border-box;
+        padding: 100px 20px 30px;
+        flex-direction: column;
+    }
+
+    .fb-mini-logo {
+        left: 25px;
+        top: 25px;
+        height: 50px;
+    }
+
+    #left-box > h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #left-box > div img {
+        height: 300px;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    #right-box {
+        width: 100%;
+        height: auto;
+        min-height: 55vh;
+        padding: 40px 25px;
+        box-sizing: border-box;
+    }
+
+    #right-box > h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #input-boxes {
+        width: 100%;
+        max-width: 500px;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    #left-box {
+        min-height: auto;
+        padding: 90px 15px 25px;
+    }
+
+    .fb-mini-logo {
+        left: 20px;
+        top: 20px;
+        height: 45px;
+    }
+
+    #left-box > h1 {
+        font-size: 25px;
+        line-height: 1.3;
+    }
+
+    #left-box > div img {
+        height: 230px;
+        max-width: 100%;
+    }
+
+    #right-box {
+        min-height: auto;
+        padding: 35px 15px;
+    }
+
+    #right-box > h1 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    #email-box > input,
+    #password-box > input {
+        height: 48px;
+        box-sizing: border-box;
+        font-size: 15px;
+    }
+
+    #login-button > button,
+    #forgot-button > button,
+    #creat-button > button {
+        height: 42px;
+    }
+
+    #forgot-button > button {
+        margin-bottom: 30px;
+    }
+
+    #creat-button > button {
+        margin-bottom: 20px;
+    }
+
+    #meta-logo > img {
+        height: 30px;
+    }
+
+}
+
+
+@media (max-width: 399.98px) {
+
+    #left-box {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #left-box > h1 {
+        font-size: 22px;
+    }
+
+    #left-box > div img {
+        height: 190px;
+    }
+
+    #right-box {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #right-box > h1 {
+        font-size: 20px;
+    }
+
+    #email-box > input,
+    #password-box > input {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    #login-button > button,
+    #forgot-button > button {
+        font-size: 14px;
+    }
+
+    #creat-button > button {
+        font-size: 15px;
+    }
+
+}

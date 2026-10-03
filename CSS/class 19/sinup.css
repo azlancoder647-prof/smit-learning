@@ -238,3 +238,273 @@ body{
 .footer:hover{
     cursor: pointer;
 }
+
+
+@media (max-width: 1199.98px) {
+
+    #sinup-form {
+        width: 550px;
+    }
+
+    #firstname > input,
+    #surname > input {
+        width: 245px;
+        box-sizing: border-box;
+    }
+
+    .select {
+        width: 175px;
+        box-sizing: border-box;
+    }
+
+}
+
+
+@media (max-width: 991.98px) {
+
+    #sinup-form {
+        width: 90%;
+        max-width: 550px;
+        box-sizing: border-box;
+    }
+
+    #input-box {
+        width: 100%;
+    }
+
+    #firstname,
+    #surname {
+        width: 50%;
+    }
+
+    #firstname > input,
+    #surname > input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #dropdown-list {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .select {
+        width: 33.33%;
+        box-sizing: border-box;
+    }
+
+    .gender,
+    #mob {
+        width: 100%;
+    }
+
+    #pas {
+        width: 100%;
+    }
+
+    #footer {
+        padding: 10px 40px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+    #container {
+        width: 100%;
+    }
+
+    #sinup-form {
+        width: 100%;
+        max-width: 550px;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+
+    #sinup-header > h1 {
+        font-size: 23px;
+    }
+
+    #sinup-header > p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    #input-box {
+        gap: 10px;
+    }
+
+    #firstname,
+    #surname {
+        width: 50%;
+    }
+
+    #firstname > input,
+    #surname > input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #dropdown-list {
+        gap: 8px;
+    }
+
+    .select {
+        width: 33.33%;
+        height: 55px;
+    }
+
+    #gender {
+        height: 55px;
+    }
+
+    #mob > input,
+    #pas > input {
+        height: 55px;
+        box-sizing: border-box;
+    }
+
+    #footer {
+        padding: 10px 20px;
+    }
+
+    .footer {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    #sinup-form {
+        padding: 20px 15px;
+    }
+
+    #sinup-header > h1 {
+        font-size: 21px;
+    }
+
+    #sinup-header > p {
+        font-size: 15px;
+    }
+
+    #input-box {
+        
+        gap: 5px;
+    }
+
+    #firstname,
+    #surname {
+        width: 100%;
+    }
+
+    #firstname > input,
+    #surname > input {
+        width: 100%;
+        height: 50px;
+    }
+
+    #dropdown-list {
+        gap: 6px;
+    }
+
+    .select {
+        width: 33.33%;
+        height: 52px;
+        font-size: 14px;
+    }
+
+    #gender {
+        height: 52px;
+        font-size: 14px;
+    }
+
+    #mob > input,
+    #pas > input {
+        height: 52px;
+        font-size: 14px;
+    }
+
+    .dcp {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    #login-button > button,
+    #forgot-button > button {
+        height: 42px;
+    }
+
+    #forgot-button > button {
+        font-size: 16px;
+    }
+
+    #footer {
+        padding: 10px 15px;
+    }
+
+    .footer {
+        font-size: 13px;
+        line-height: 1.7;
+        padding: 7px;
+    }
+
+}
+
+
+@media (max-width: 399.98px) {
+
+    #sinup-form {
+        padding: 15px 10px;
+    }
+
+    #sinup-header > h1 {
+        font-size: 19px;
+    }
+
+    #sinup-header > p {
+        font-size: 14px;
+    }
+
+    .select {
+        height: 50px;
+        font-size: 13px;
+        padding-left: 7px;
+        padding-right: 5px;
+    }
+
+    #gender {
+        height: 50px;
+        font-size: 13px;
+    }
+
+    #mob > input,
+    #pas > input {
+        height: 50px;
+    }
+
+    .dcp {
+        font-size: 13px;
+    }
+
+    #login-button > button {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #forgot-button > button {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #footer {
+        padding: 10px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+
+}

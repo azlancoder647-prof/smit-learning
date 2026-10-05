@@ -13,6 +13,7 @@
 }
 
 
+
 #navbar-right-setting{
     display: flex;
     justify-content: center;
@@ -457,4 +458,643 @@
     color: white;
     font-size: 15px;
     margin: 0;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1199.98px) {
+
+    #main-nav {
+        padding: 5px 25px;
+    }
+
+    
+
+    #navbar-right-setting {
+        gap: 25px;
+    }
+
+    .card-img-parent {
+        width: 210px;
+    }
+
+    .card-line-side {
+        gap: 20px;
+    }
+
+    .horizontal-card-parent-1 {
+        padding-left: 50px;
+    }
+
+    .horizontal-card-parent-2 {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .footer-container {
+        grid-template-columns: 2fr 1fr 1.3fr 1fr;
+        gap: 30px;
+    }
+
+}
+
+
+
+
+@media (max-width: 991.98px) {
+
+    
+
+    #main-nav {
+        padding: 5px 20px;
+    }
+
+    .line-card-section > div > img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #navbar-right-setting {
+        gap: 15px;
+    }
+
+    #navbar-right-setting h3 {
+        font-size: 14px;
+    }
+
+    #button-parent > #one-button,
+    #button-parent > .order-button {
+        width: 130px;
+    }
+
+
+    
+
+    .card-parent {
+        height: auto;
+        padding-bottom: 70px;
+    }
+
+    .heading {
+        padding-top: 60px;
+    }
+
+    .heading > h2 {
+        font-size: 32px;
+    }
+
+    .brand-name-logo {
+        font-size: 55px;
+    }
+
+    .card-line-side {
+        flex-wrap: wrap;
+        padding: 0 30px;
+    }
+
+
+    
+
+    .horizontal-card-parent {
+        height: auto;
+        padding-bottom: 80px;
+    }
+
+    .background-image-parent > img {
+        max-width: 250px;
+    }
+
+    .horizontal-card-parent-1,
+    .horizontal-card-parent-2 {
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 30px;
+    }
+
+    .horizontal-card-parent-1 > div,
+    .horizontal-card-parent-2 > div {
+        width: 50%;
+    }
+
+    .horizontal-card-parent-1 img,
+    .horizontal-card-parent-2 img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .heading > .h2 {
+        font-size: 45px;
+    }
+
+    .brand-name-logo-2 {
+        font-size: 48px;
+    }
+
+    .heading-2 > .h2-2 {
+        font-size: 40px;
+    }
+
+
+    
+
+    .wrap-card-parent {
+        height: auto;
+        padding-bottom: 80px;
+    }
+
+    .wrap-cards {
+        column-gap: 25px;
+    }
+
+    .wrap-cards > div {
+        width: 300px;
+    }
+
+    .wrap-cards img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    
+
+    .horizontal-card-parent-3 {
+        height: auto;
+        padding-bottom: 70px;
+    }
+
+
+    
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+}
+
+
+
+
+@media (max-width: 767.98px) {
+
+    
+
+    #main-nav {
+        position: relative;
+        height: 75px;
+        padding: 5px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line-card-section > div > img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #image-parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #image-parent img {
+        height: 65px;
+    }
+
+    #navbar-right-setting {
+        position: absolute;
+        right: 15px;
+        display: flex;
+        gap: 0;
+    }
+
+    #navbar-right-setting > h3 {
+        display: none;
+    }
+
+    #button-parent {
+        display: flex;
+    }
+
+    #button-parent > #one-button {
+        display: none;
+    }
+
+    #button-parent > .order-button {
+        width: 130px;
+        height: 45px;
+    }
+
+
+    
+
+    .card-parent {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    .heading {
+        padding: 50px 20px 0;
+    }
+
+    .heading > h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .brand-name-logo {
+        font-size: 45px;
+    }
+
+    .heading > p {
+        font-size: 14px;
+        word-spacing: 3px;
+        line-height: 1.5;
+    }
+
+    .card-line-side {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .card-img-parent {
+        width: 250px;
+    }
+
+
+    
+
+    .horizontal-card-parent {
+        height: auto;
+        padding-bottom: 70px;
+    }
+
+    .background-image-parent {
+        display: none;
+    }
+
+    .heading > .h2 {
+        font-size: 38px;
+    }
+
+    .brand-name-logo-2 {
+        font-size: 42px;
+    }
+
+    .heading > .p {
+        font-size: 15px;
+        word-spacing: 2px;
+        line-height: 1.5;
+    }
+
+    .horizontal-card-parent-1,
+    .horizontal-card-parent-2 {
+        flex-direction: column;
+        padding: 0 25px;
+        gap: 25px;
+    }
+
+    .horizontal-card-parent-2 {
+        flex-direction: column;
+    }
+
+    .horizontal-card-parent-1 > div,
+    .horizontal-card-parent-2 > div {
+        width: 100%;
+    }
+
+    .horizontal-card-parent-1 img,
+    .horizontal-card-parent-2 img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px !important;
+    }
+
+    .heading-2 {
+        text-align: center;
+    }
+
+    .heading-2 > .h2-2 {
+        font-size: 35px;
+    }
+
+    .icons {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .get-directions-button {
+        margin: 30px auto 0;
+    }
+
+
+    
+
+    .wrap-card-parent {
+        height: auto;
+        padding-bottom: 70px;
+    }
+
+    .heading > .h2-3 {
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+
+    .wrap-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .wrap-cards > div {
+        width: 90%;
+        max-width: 350px;
+        text-align: center;
+    }
+
+    .wrap-cards img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        object-fit: contain;
+    }
+
+
+    
+
+    .horizontal-card-parent-3 {
+        height: auto;
+        padding-bottom: 70px;
+    }
+
+    .horizontal-card-parent-3 .horizontal-card-parent-1 {
+        flex-direction: column;
+    }
+
+    .horizontal-card-parent-3 .horizontal-card-parent-1 > div {
+        width: 100%;
+    }
+
+    .horizontal-card-parent-3 img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .horizontal-card-parent-3 .heading-2 h2 {
+        font-size: 38px !important;
+    }
+
+
+    
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 45px;
+        padding: 50px 25px;
+    }
+
+    .footer-about {
+        max-width: 100%;
+    }
+
+    .footer-logo {
+        margin: 0 auto 25px;
+    }
+
+    .footer-about p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .footer-policies {
+        justify-content: center;
+    }
+
+    .footer-links,
+    .footer-contact,
+    .footer-social {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .app-buttons {
+        align-items: center;
+    }
+
+}
+
+
+
+
+@media (max-width: 575.98px) {
+
+    
+
+    #main-nav {
+        height: 70px;
+        padding: 5px 15px;
+    }
+
+    .line-card-section > div > img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #image-parent img {
+        height: 58px;
+    }
+
+    #button-parent > .order-button {
+        width: 115px;
+        height: 42px;
+        font-size: 13px;
+    }
+
+    .order-icon {
+        right: 7px;
+        transform: scale(0.85);
+    }
+
+
+    
+
+    .heading {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .heading > h2 {
+        font-size: 24px;
+    }
+
+    .brand-name-logo {
+        font-size: 38px;
+    }
+
+    .card-line-side {
+        padding: 0 15px;
+    }
+
+    .card-img-parent {
+        width: 230px;
+    }
+
+
+    
+
+    .horizontal-card-parent-1,
+    .horizontal-card-parent-2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .heading > .h2 {
+        font-size: 31px;
+    }
+
+    .brand-name-logo-2 {
+        font-size: 35px;
+    }
+
+    .heading-2 > .h2-2 {
+        font-size: 30px;
+    }
+
+
+    
+
+    .heading > .h2-3 {
+        font-size: 36px;
+    }
+
+    .wrap-cards > div {
+        width: 92%;
+    }
+
+
+    
+
+    .footer-container {
+        padding: 45px 20px;
+    }
+
+    .footer-about p {
+        font-size: 13px;
+    }
+
+    .footer h3 {
+        font-size: 18px;
+    }
+
+    .footer-contact p,
+    .footer-links a {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+@media (max-width: 399.98px) {
+
+    
+
+    #main-nav {
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+
+    #image-parent img {
+        height: 52px;
+    }
+
+    #button-parent > .order-button {
+        width: 105px;
+        height: 40px;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+
+    
+
+    .heading > h2 {
+        font-size: 22px;
+    }
+
+    .brand-name-logo {
+        font-size: 34px;
+    }
+
+    .card-img-parent {
+        width: 210px;
+        height: 115px;
+    }
+
+    .first-card-parent > button {
+        width: 155px;
+    }
+
+
+    
+
+    .heading > .h2 {
+        font-size: 28px;
+    }
+
+    .brand-name-logo-2 {
+        font-size: 32px;
+    }
+
+    .heading-2 > .h2-2 {
+        font-size: 27px;
+    }
+
+    .icons {
+        font-size: 13px;
+    }
+
+
+    
+
+    .heading > .h2-3 {
+        font-size: 32px;
+    }
+
+    .wrap-cards > div {
+        width: 95%;
+    }
+
+
+    
+
+    .footer-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer-about p {
+        font-size: 12px;
+    }
+
 }

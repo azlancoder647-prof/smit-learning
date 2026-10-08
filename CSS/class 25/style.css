@@ -1,0 +1,2243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: white;
+    z-index: 2000;
+    position: sticky;
+    top: 0px;
+    height: 65px;
+    text-align: center;
+}
+
+.main-nav > h4{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.main-logo-wording{
+    display: flex;
+    justify-content: space-between;
+}
+
+.simple-button{
+    border: none;
+    font-size: 16px;
+}
+
+.green-button{
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: #108a00;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.buttons > .simple-button{
+    margin-right: 20px;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 80px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #EEFACC, #CCF4CF, #D4FBD8);
+    text-align: center;
+    margin-top: 30px ;
+    margin-bottom: 50px;
+}
+
+.header > h4 {
+    font-size: 25px;
+}
+
+.header > button{
+    border: none;
+    height: 30px;
+    font-size: 17px;
+    background-color: #cff8d3;
+}
+
+
+
+.hero {
+    position: relative;
+    width: 87%;
+    height: 600px;
+    margin: 35px auto;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+
+/* Background video */
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.48);
+}
+
+
+
+
+.hero-content {
+    position: absolute;
+
+    top: 55px;
+    left: 70px;
+
+    z-index: 2;
+
+    color: white;
+
+    width: 700px;
+}
+
+
+
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 1.08;
+
+    font-weight: 600;
+
+    margin-bottom: 15px;
+}
+
+
+
+
+.hero-content p {
+    width: 570px;
+
+    font-size: 18px;
+    line-height: 1.4;
+
+    margin-bottom: 30px;
+}
+
+
+
+
+.hero-buttons {
+    display: flex;
+
+    width: 650px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    border-radius: 30px;
+
+    overflow: hidden;
+
+    margin-bottom: 28px;
+}
+
+
+.hero-tab {
+    width: 50%;
+
+    padding: 13px;
+
+    border: none;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+.hero-tab.active {
+    background: rgba(255, 255, 255, 0.18);
+
+    border: 1px solid white;
+
+    border-radius: 30px;
+}
+
+
+
+
+.search-box {
+    display: flex;
+
+    width: 650px;
+    height: 48px;
+
+    background: white;
+
+    border-radius: 30px;
+
+    overflow: hidden;
+
+    margin-bottom: 70px;
+}
+
+
+
+
+.search-box input {
+    flex: 1;
+
+    border: none;
+
+    outline: none;
+
+    padding: 0 25px;
+
+    font-size: 16px;
+
+    color: #333;
+}
+
+
+.search-box input::placeholder {
+    color: #777;
+}
+
+
+
+
+.search-btn {
+    width: 165px;
+
+    border: none;
+
+    background: #111;
+
+    color: white;
+
+    border-radius: 30px;
+
+    margin: 5px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.search-btn > span > i {
+    color: #d2ff00;
+    font-size: 25px;
+}
+
+
+
+
+.search-icon {
+    font-size: 25px;
+
+    margin-right: 8px;
+
+    vertical-align: middle;
+}
+
+
+
+
+.suggestion-buttons {
+    display: flex;
+
+    gap: 12px;
+
+    align-items: center;
+}
+
+
+.suggestion {
+    display: flex;
+
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px 17px;
+
+    border-radius: 25px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    background: rgba(0, 0, 0, 0.2);
+
+    color: white;
+
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+
+
+
+.suggestion-icon > i{
+    font-size: 18px;
+    color: #d4dbe2;
+    font-weight: bold;
+}
+
+.slider > .m > img{
+    margin-right: 30px;
+    background-color: transparent;
+    
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider > p{
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.freelancer-section {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.freelancer-section h2 {
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.cards-container {
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 30px;
+}
+
+.work-card {
+    height: 210px;
+
+    padding: 30px 20px;
+
+    background-color: white;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 15px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    
+
+    transition: 0.2s;
+    
+}
+
+.work-card:hover {
+    border:1px solid black;
+}
+
+
+
+.hover:hover{
+    border:2px solid green;
+    transition: 0.2s;
+    
+    
+}
+
+.hover{
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.icon {
+    font-size: 30px;
+    color: #55b947;
+}
+
+.work-card h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.third-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.third-header > h4{
+    font-size: 40px;
+    font-weight: lighter;
+    
+}
+
+.button-parent{
+    display: flex;
+
+    width: 300px;
+
+    border: 1px solid black;
+
+    border-radius: 30px;
+
+    overflow: hidden;
+
+    
+}
+
+.btn{
+    width: 50%;
+
+    border: none;
+    padding: 15px;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.btn.active{
+
+     border: 2px solid black;
+
+    border-radius: 30px;
+
+}
+
+.how-it-works {
+    width: 90%;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+
+.info-card {
+    position: relative;
+
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 0;
+
+    z-index: 1;
+}
+
+
+
+
+.media {
+    width: 100%;
+    height: 310px;
+
+    overflow: hidden;
+
+    border-radius: 18px;
+}
+
+
+.media img,
+.media video {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+.info-card h2 {
+    font-size: 25px;
+    font-weight: 500;
+
+    margin-top: 25px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.info-card small{
+    padding-bottom: 10px;
+}
+
+.line-card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #108a00;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.line-card-btn > button{
+    background-color: #108a00;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+}
+
+.pricing-section {
+    width: 90%;
+    height: 580px;
+
+    margin: 50px auto;
+
+    display: flex;
+
+    background: #171717;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    color: white;
+}
+
+
+
+
+.pricing-left {
+    width: 50%;
+
+    padding: 90px 65px;
+
+    background:
+        repeating-linear-gradient(
+            135deg,
+            #191919 0px,
+            #191919 2px,
+            #151515 2px,
+            #151515 15px
+        );
+}
+
+
+.pricing-left h1 {
+    font-size: 52px;
+
+    line-height: 1.05;
+
+    font-weight: 500;
+
+    margin: 0 0 35px;
+}
+
+
+.pricing-left p {
+    width: 90%;
+
+    font-size: 18px;
+
+    line-height: 1.5;
+
+    margin-bottom: 45px;
+}
+
+
+/* INPUT BOX */
+
+.pricing-input {
+    width: 100%;
+    height: 115px;
+
+    background: white;
+
+    border-radius: 25px;
+
+    color: #777;
+
+    padding: 18px;
+
+    position: relative;
+}
+
+
+
+.pricing-input button {
+    position: absolute;
+
+    right: 8px;
+    bottom: 8px;
+
+    width: 125px;
+    height: 48px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background: #181818;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 600;
+}
+
+
+.ai-icon {
+    margin-left: 8px;
+
+    font-size: 22px;
+}
+
+
+
+
+.pricing-right {
+    width: 50%;
+    height: 100%;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+
+
+
+.pricing-right video {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+.plans-section {
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 70px 10% 50px;
+
+    background:
+        repeating-linear-gradient(
+            135deg,
+            #fff 0px,
+            #fff 3px,
+            #f8f8f8 3px,
+            #f8f8f8 5px
+        );
+}
+
+
+
+
+.plans-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.plans-heading h1 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0 0 55px;
+}
+
+.plans-heading p {
+    font-size: 19px;
+    margin: 0;
+}
+
+
+
+
+.plans-container {
+    display: flex;
+    gap: 35px;
+
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+
+
+.plan-card {
+    position: relative;
+
+    width: 50%;
+    min-height: 650px;
+
+    padding: 38px 36px;
+
+    background: white;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 20px;
+
+}
+
+
+
+
+.plan-card:hover{
+    border: 2px solid #b4ed9b;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+.plan-card h2 {
+    margin: 0 0 5px;
+
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+
+.short-text {
+    margin: 0;
+
+    color: #777;
+
+    font-size: 15px;
+}
+
+
+
+
+.description {
+    margin-top: 25px;
+
+    color: #777;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    max-width: 560px;
+}
+
+
+
+
+.plan-card hr {
+    border: none;
+
+    border-top: 1px solid #e5e5e5;
+
+    margin: 28px 0;
+}
+
+
+
+
+.plan-card h3 {
+    font-size: 18px;
+
+    font-weight: 400;
+
+    color: #666;
+
+    margin-bottom: 25px;
+}
+
+
+
+
+.plan-card ul {
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.plan-card li {
+    position: relative;
+
+    padding-left: 35px;
+
+    margin-bottom: 18px;
+
+    color: #777;
+
+    font-size: 16px;
+
+    line-height: 1.45;
+}
+
+
+
+
+.plan-card li::before {
+
+    position: absolute;
+
+    left: 5px;
+    top: 0;
+
+    font-size: 20px;
+
+    color: #777;
+}
+
+
+
+
+.plan-card button {
+    position: absolute;
+
+    left: 36px;
+    right: 36px;
+    bottom: 35px;
+
+    height: 46px;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+
+
+.basic-btn {
+    background: white;
+
+    border: 2px solid #269b27;
+
+    color: #269b27;
+}
+
+
+
+
+.basic-btn:hover{
+    background-color: #108a00;
+    border: 2px solid #108a00;
+    color: white;
+}
+
+
+
+
+.popular {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    padding: 8px 15px;
+
+    background: #a8ee8b;
+
+    color: #246c1e;
+
+    font-size: 14px;
+
+    border-radius: 0 18px 0 15px;
+}
+
+
+
+
+.compare-link {
+    display: block;
+
+    width: fit-content;
+
+    margin: 55px auto 0;
+
+    color: #319b31;
+
+    font-size: 17px;
+
+    text-decoration: none;
+}
+
+.compare-link:hover{
+    text-decoration: underline;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.results-section {
+    position: relative;
+
+    width: 100%;
+
+    padding: 70px 6% 80px;
+
+    overflow: hidden;
+
+    background: white;
+}
+
+
+
+
+.results-section::before {
+    content: "";
+
+    position: absolute;
+
+    width: 900px;
+    height: 500px;
+
+    left: -150px;
+    top: 300px;
+
+    
+
+    transform: rotate(-25deg);
+
+    z-index: 0;
+
+    opacity: 0.9;
+}
+
+
+
+
+.results-section > h1 {
+    position: relative;
+
+    z-index: 2;
+
+    margin: 0 0 50px;
+
+    font-size: 36px;
+
+    font-weight: 500;
+}
+
+
+
+
+.results-container {
+    position: relative;
+
+    z-index: 2;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 32px;
+
+    padding: 0 10px;
+}
+
+
+
+
+.result-card {
+    min-height: 315px;
+
+    padding: 34px;
+
+    background: rgba(255, 255, 255, 0.96);
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 17px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+
+
+
+.quote {
+    margin: 0;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    color: #252525;
+}
+
+
+
+
+.person {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+
+
+
+.person h4 {
+    margin: 0 0 7px;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    color: #333;
+}
+
+
+
+
+.person p {
+    margin: 0;
+
+    font-size: 14px;
+
+    color: #999;
+}
+
+
+
+
+.person img {
+    width: 76px;
+    height: 76px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    background: #ddd;
+}
+
+
+
+
+
+
+.last-banner {
+    width: 88%;
+    min-height: 215px;
+
+    margin: 70px auto 105px;
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    background: linear-gradient(
+        110deg,
+        #baff00,
+        #00d96b,
+        #00c85a,
+        #baff00
+    );
+
+    background-size: 300% 300%;
+
+    animation: gradientShift 7s ease infinite;
+}
+
+
+
+
+@keyframes gradientShift {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+
+.last-banner h2 {
+    color: white;
+
+    font-size: 36px;
+
+    font-weight: 500;
+
+    margin-bottom: 30px;
+}
+
+
+.last-banner button {
+    border: none;
+
+    background: white;
+
+    color: #222;
+
+    padding: 13px 28px;
+
+    border-radius: 7px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+
+
+
+.footer {
+    width: 100%;
+
+    background: #181818;
+
+    color: white;
+
+    padding: 70px 5.7% 35px;
+
+    border-radius: 7px 7px 0 0;
+}
+
+
+
+
+.footer-links {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 50px;
+}
+
+
+.footer-column {
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+.footer-column h4 {
+    color: #999;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    margin-bottom: 22px;
+}
+
+
+.footer-column a {
+    color: #eee;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    margin-bottom: 17px;
+
+    width: fit-content;
+}
+
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.footer-bottom {
+    margin-top: 55px;
+
+    padding-top: 25px;
+
+    border-bottom: 1px solid #333;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+
+
+.social,
+.apps {
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+}
+
+
+.social span,
+.apps span {
+    color: #999;
+
+    font-size: 14px;
+
+    margin-right: 5px;
+}
+
+
+.social a,
+.apps a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 19px;
+}
+
+
+
+
+@media (max-width: 1399.98px) {
+
+    .hero {
+        width: 90%;
+    }
+
+    .hero-content {
+        left: 60px;
+    }
+
+    .freelancer-section {
+        width: 90%;
+    }
+
+    .cards-container {
+        gap: 20px;
+    }
+
+    .work-card h3 {
+        font-size: 22px;
+    }
+
+    .pricing-section {
+        width: 90%;
+    }
+
+    .results-section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}
+
+
+
+
+@media (max-width: 1199.98px) {
+
+    
+
+    .main-nav {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .main-nav > h4 {
+        font-size: 14px;
+    }
+
+
+    
+
+    .header {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .header > h4 {
+        font-size: 20px;
+    }
+
+
+    
+
+    .hero {
+        width: 92%;
+        height: 560px;
+    }
+
+    .hero-content {
+        left: 50px;
+        top: 50px;
+        width: 650px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .hero-content p {
+        width: 520px;
+        font-size: 17px;
+    }
+
+    .hero-buttons,
+    .search-box {
+        width: 600px;
+    }
+
+
+    
+
+    .freelancer-section {
+        width: 90%;
+    }
+
+    .freelancer-section h2 {
+        font-size: 36px;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .work-card {
+        height: 190px;
+    }
+
+
+    
+
+    .how-it-works {
+        width: 90%;
+        gap: 20px;
+    }
+
+    .media {
+        height: 270px;
+    }
+
+    .info-card h2 {
+        font-size: 22px;
+    }
+
+
+    
+
+    .pricing-section {
+        width: 90%;
+        height: 520px;
+    }
+
+    .pricing-left {
+        padding: 70px 45px;
+    }
+
+    .pricing-left h1 {
+        font-size: 42px;
+    }
+
+
+    
+
+    .plans-section {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .plan-card {
+        padding: 32px 28px;
+    }
+
+
+    
+
+    .results-container {
+        gap: 20px;
+    }
+
+    .result-card {
+        padding: 28px;
+    }
+
+    .quote {
+        font-size: 15px;
+    }
+
+
+    
+
+    .footer {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+}
+
+
+
+
+@media (max-width: 991.98px) {
+
+    
+
+    .main-nav {
+        height: auto;
+        min-height: 65px;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px 25px;
+    }
+
+    .main-nav > h4 {
+        font-size: 14px;
+    }
+
+
+    
+
+    .header {
+        margin: 25px 25px 40px;
+        height: auto;
+        min-height: 70px;
+        padding: 15px 20px;
+    }
+
+    .header > h4 {
+        font-size: 18px;
+    }
+
+    .header > button {
+        font-size: 15px;
+    }
+
+
+    
+
+    .hero {
+        width: 94%;
+        height: 540px;
+    }
+
+    .hero-content {
+        left: 40px;
+        top: 45px;
+        width: calc(100% - 80px);
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-content p {
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .hero-buttons,
+    .search-box {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .suggestion-buttons {
+        flex-wrap: wrap;
+    }
+
+
+    
+
+    .slider {
+        padding: 0 20px;
+    }
+
+
+    
+
+    .freelancer-section {
+        width: 90%;
+    }
+
+    .freelancer-section h2 {
+        font-size: 34px;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+    }
+
+    .work-card {
+        height: 185px;
+        padding: 25px 18px;
+    }
+
+    .work-card h3 {
+        font-size: 21px;
+    }
+
+
+    
+
+    .third-header {
+        padding: 35px 5%;
+    }
+
+    .third-header > h4 {
+        font-size: 34px;
+    }
+
+
+    
+
+    .how-it-works {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .info-card:last-child {
+        grid-column: 1 / -1;
+        width: 50%;
+        justify-self: center;
+    }
+
+
+    
+
+    .pricing-section {
+        width: 92%;
+        height: auto;
+        min-height: 500px;
+    }
+
+    .pricing-left {
+        padding: 60px 35px;
+    }
+
+    .pricing-left h1 {
+        font-size: 36px;
+    }
+
+    .pricing-left p {
+        font-size: 16px;
+    }
+
+    .pricing-input {
+        height: 105px;
+    }
+
+
+    
+
+    .plans-section {
+        padding: 60px 5% 45px;
+    }
+
+    .plans-heading h1 {
+        font-size: 34px;
+    }
+
+    .plans-container {
+        gap: 20px;
+    }
+
+    .plan-card {
+        padding: 30px 25px;
+        min-height: 680px;
+    }
+
+
+    
+
+    .results-section {
+        padding: 60px 5% 70px;
+    }
+
+    .results-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .result-card {
+        min-height: 330px;
+    }
+
+
+    
+
+    .last-banner {
+        width: 90%;
+        min-height: 200px;
+    }
+
+    .last-banner h2 {
+        font-size: 30px;
+    }
+
+
+    
+
+    .footer {
+        padding: 60px 6% 30px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px 30px;
+    }
+
+}
+
+
+
+
+@media (max-width: 767.98px) {
+
+    
+
+    .main-nav {
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        padding: 15px;
+        z-index: 400;
+    }
+
+    .main-nav > div:first-child {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-nav > h4 {
+        display: none;
+    }
+
+    
+
+
+    
+
+    .header {
+        margin: 20px 15px 30px;
+        padding: 18px;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .header > h4 {
+        font-size: 17px;
+    }
+
+
+    
+
+    .hero {
+        width: calc(100% - 30px);
+        height: 560px;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+
+    .hero-content {
+        left: 25px;
+        top: 35px;
+        width: calc(100% - 50px);
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .hero-buttons {
+        width: 100%;
+    }
+
+    .hero-tab {
+        font-size: 14px;
+    }
+
+    .search-box {
+        width: 100%;
+        height: 50px;
+    }
+
+    .search-box input {
+        min-width: 0;
+        padding: 0 15px;
+        font-size: 14px;
+    }
+
+    .search-btn {
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .search-btn > span > i {
+        font-size: 18px;
+    }
+
+    .suggestion-buttons {
+        gap: 8px;
+    }
+
+    .suggestion {
+        font-size: 13px;
+        padding: 9px 12px;
+    }
+
+
+    
+
+    .slider > p {
+        font-size: 14px;
+    }
+
+
+    
+
+    .freelancer-section {
+        width: calc(100% - 30px);
+        margin: 40px auto;
+    }
+
+    .freelancer-section h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .work-card {
+        height: 170px;
+        padding: 20px 15px;
+    }
+
+    .work-card h3 {
+        font-size: 19px;
+    }
+
+    .icon {
+        font-size: 27px;
+    }
+
+
+    
+
+    .third-header {
+        flex-direction: column;
+        gap: 25px;
+        padding: 30px 15px;
+        margin-bottom: 20px;
+    }
+
+    .third-header > h4 {
+        font-size: 32px;
+    }
+
+    .button-parent {
+        width: 100%;
+        max-width: 350px;
+    }
+
+
+    
+
+    .how-it-works {
+        width: calc(100% - 30px);
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .info-card:last-child {
+        grid-column: auto;
+        width: 100%;
+    }
+
+    .media {
+        height: 280px;
+    }
+
+
+    
+
+    .pricing-section {
+        width: calc(100% - 30px);
+        flex-direction: column;
+        height: auto;
+    }
+
+    .pricing-left,
+    .pricing-right {
+        width: 100%;
+    }
+
+    .pricing-left {
+        padding: 50px 25px;
+    }
+
+    .pricing-left h1 {
+        font-size: 35px;
+    }
+
+    .pricing-left p {
+        width: 100%;
+    }
+
+    .pricing-input {
+        height: 110px;
+    }
+
+    .pricing-right {
+        height: 350px;
+    }
+
+
+    
+
+    .plans-section {
+        padding: 50px 15px 40px;
+    }
+
+    .plans-heading {
+        margin-bottom: 35px;
+    }
+
+    .plans-heading h1 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .plans-heading p {
+        font-size: 17px;
+    }
+
+    .plans-container {
+        flex-direction: column;
+    }
+
+    .plan-card {
+        width: 100%;
+        min-height: 650px;
+    }
+
+
+    
+
+    .results-section {
+        padding: 50px 15px 60px;
+    }
+
+    .results-section > h1 {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+
+    .results-container {
+        grid-template-columns: 1fr;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .result-card {
+        min-height: 300px;
+        padding: 25px;
+    }
+
+
+    
+
+    .last-banner {
+        width: calc(100% - 30px);
+        min-height: 200px;
+        margin: 50px auto 70px;
+        padding: 25px;
+    }
+
+    .last-banner h2 {
+        font-size: 27px;
+    }
+
+
+    
+
+    .footer {
+        padding: 50px 25px 30px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 20px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+}
+
+
+
+
+@media (max-width: 575.98px) {
+
+    
+
+    .main-nav {
+        padding: 12px;
+    }
+
+    .green-button {
+        width: 90px;
+        height: 38px;
+    }
+
+    .buttons > .simple-button {
+        margin-right: 10px;
+    }
+
+
+    
+
+    .header {
+        margin: 15px 10px 25px;
+        border-radius: 15px;
+    }
+
+
+    
+
+    .hero {
+        width: calc(100% - 20px);
+        height: 600px;
+        border-radius: 15px;
+    }
+
+    .hero-content {
+        left: 20px;
+        top: 30px;
+        width: calc(100% - 40px);
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .hero-content p {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .hero-buttons {
+        height: 48px;
+    }
+
+    .hero-tab {
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+
+    .search-box {
+        height: 100px;
+        flex-direction: column;
+        background: transparent;
+        overflow: visible;
+        gap: 8px;
+    }
+
+    .search-box input {
+        width: 100%;
+        height: 48px;
+        border-radius: 25px;
+        background: white;
+    }
+
+    .search-btn {
+        width: 100%;
+        height: 45px;
+        margin: 0;
+    }
+
+    .suggestion-buttons {
+        margin-top: 80px;
+        justify-content: center;
+    }
+
+    .suggestion {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+
+    
+
+    .freelancer-section {
+        width: calc(100% - 20px);
+    }
+
+    .freelancer-section h2 {
+        font-size: 27px;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .work-card {
+        height: 145px;
+    }
+
+    .work-card h3 {
+        font-size: 20px;
+    }
+
+
+    
+
+    .third-header {
+        padding: 25px 15px;
+    }
+
+    .third-header > h4 {
+        font-size: 29px;
+    }
+
+    .button-parent {
+        width: 100%;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 13px 5px;
+    }
+
+    .media {
+        height: 250px;
+    }
+
+
+    
+
+    .pricing-section {
+        width: calc(100% - 20px);
+    }
+
+    .pricing-left {
+        padding: 40px 20px;
+    }
+
+    .pricing-left h1 {
+        font-size: 31px;
+    }
+
+    .pricing-input {
+        height: 120px;
+    }
+
+    .pricing-input button {
+        width: 110px;
+        height: 45px;
+    }
+
+    .pricing-right {
+        height: 280px;
+    }
+
+
+    
+
+    .plans-section {
+        padding: 45px 10px 35px;
+    }
+
+    .plans-heading h1 {
+        font-size: 28px;
+    }
+
+    .plans-heading p {
+        font-size: 16px;
+    }
+
+    .plan-card {
+        min-height: 680px;
+        padding: 28px 22px;
+    }
+
+    .plan-card h2 {
+        font-size: 23px;
+    }
+
+    .plan-card li {
+        font-size: 14px;
+    }
+
+    .plan-card button {
+        left: 22px;
+        right: 22px;
+    }
+
+
+    
+
+    .results-section {
+        padding: 45px 10px 55px;
+    }
+
+    .results-section > h1 {
+        font-size: 28px;
+    }
+
+    .result-card {
+        padding: 22px;
+        min-height: 320px;
+    }
+
+    .quote {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+
+    .person img {
+        width: 65px;
+        height: 65px;
+    }
+
+
+    
+
+    .last-banner {
+        width: calc(100% - 20px);
+        min-height: 190px;
+        margin-bottom: 50px;
+    }
+
+    .last-banner h2 {
+        font-size: 24px;
+        margin-bottom: 22px;
+    }
+
+
+    
+
+    .footer {
+        padding: 45px 20px 25px;
+    }
+
+    .footer-links {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .footer-column a {
+        font-size: 14px;
+    }
+
+    .social,
+    .apps {
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+}

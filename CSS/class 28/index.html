@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg bg-light sticky-top shadow-sm main-nav">
+    <div class="container-fluid">
+
+        <!-- Logo -->
+        <a class="navbar-brand me-3" href="#">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa-FZfXJ4dzgT6UlVvE5zYFgy5-I51PcsaOdMHIZZLqQ&s=10"
+                alt="Logo"
+                height="50">
+        </a>
+
+        <!-- Category Links -->
+        <div class="d-flex align-items-center gap-3 category-links hidden">
+            <a class="nav-link fw-semibold hidden" href="#mens">Mens</a>
+            <a class="nav-link fw-semibold hidden" href="#womens">Womens</a>
+            <a class="nav-link fw-semibold hidden" href="#kids">Kids</a>
+            <a class="nav-link fw-semibold hidden cart" href="#">cart <p id="absolute">5</p></a>
+        </div>
+
+        <!-- Search and Logout -->
+        <form class="navbar-search d-flex align-items-center gap-2"
+              role="search">
+
+            <input
+                class="form-control search-input"
+                type="search"
+                placeholder="Search"
+                aria-label="Search">
+
+            <button class="btn btn-outline-success small-screen"
+                    type="submit">
+                Search
+            </button>
+
+            
+
+            <a href="login.html"><button class="btn btn-outline-danger my-btn"
+                    type="button">
+                Logout
+            </button></a>
+
+
+        </form>
+
+    </div>
+</nav>
+
+
+    <!-- BANNER -->
+<div id="carouselExample" class="carousel carousel-overlay slide banner">
+  <div class="carousel-inner rounded-5">
+    <div class="carousel-item active">
+      <img src="https://img.magnific.com/free-psd/horizontal-banner-online-fashion-sale_23-2148585404.jpg?semt=ais_hybrid&w=740&q=80" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://img.magnific.com/free-psd/horizontal-banner-online-fashion-sale_23-2148585404.jpg?semt=ais_hybrid&w=740&q=80" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://graphicsfamily.com/wp-content/uploads/edd/2022/11/Simple-E-commerce-Banner-Design-scaled.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+
+
+    <!--  MENS SECTION  -->
+
+    <section id="mens" class="container py-5">
+
+        <h2 class="section-title text-center fw-bold mb-4">
+            Mens
+        </h2>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+            <!-- Mens Card 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN6rtONgVApselGbVc03oJ245RQe1CB2_oFk51s8cwOPg7IG-zcrbrUM0i&s=10"
+                         class="card-img-top product-img" alt="Mens product 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Classic Cotton T-Shirt</h5>
+                        <p class="card-text">Stay comfortable all day with this classic cotton T-shirt. Perfect for casual outings and everyday wear.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mens Card 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3cyghIEvZkMSzubgu6KKvIeiLPvK52sfi_P4dUuPJgAr_Ei_S0viRKQr&s=10"
+                         class="card-img-top product-img" alt="Mens product 2">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Slim Fit Jeans</h5>
+                        <p class="card-text">Upgrade your everyday style with slim-fit jeans designed for a modern look and comfortable movement.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mens Card 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThp38SyiStRHtxBJ1r9IyewcouTXB35rJzTirOfhV7MI2-kjJ0vqttK9U&s=10"
+                         class="card-img-top product-img" alt="Mens product 3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Casual Button-Down Shirt</h5>
+                        <p class="card-text">A versatile button-down shirt that pairs effortlessly with jeans or trousers for a smart casual outfit.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mens Card 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://www.hopkicks.pk/image/cache/catalog/2026/Feb-26/HS-26/3/1-1100x1100.jpg"
+                         class="card-img-top product-img" alt="Mens product 4">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Everyday Hoodie</h5>
+                        <p class="card-text">Enjoy a relaxed fit and cozy feel with this everyday hoodie, ideal for cool days and casual styling.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mens Card 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHhXJJF1d1Eo5ryAFMFzePBC1yO3-gYDYMeBS0dzmnahS6HBMNaCp8ysKD&s=10"
+                         class="card-img-top product-img" alt="Mens product 5">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Formal Trousers</h5>
+                        <p class="card-text">Complete your professional wardrobe with versatile formal trousers suitable for office wear and special occasions.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mens Card 6 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://images.meesho.com/images/products/594070783/hihho_512.webp?width=512"
+                         class="card-img-top product-img" alt="Mens product 6">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Casual Jacket</h5>
+                        <p class="card-text">Add an extra layer to your outfit with this stylish jacket, perfect for everyday wear and weekend plans.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mens Card 7 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-AI785964031004_lifestyle?$rl_4x5_pdp$"
+                         class="card-img-top product-img" alt="Mens product 7">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Classic Polo Shirt</h5>
+                        <p class="card-text">Combine casual comfort with a smart appearance in this classic polo shirt, ideal for outings and everyday activities.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mens Card 8 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfSTBItkdtqBunTD75yZaavLsIrAtb9A1e8FrrkSoefVMFCZ6BTEEZDPM&s=10"
+                         class="card-img-top product-img" alt="Mens product 8">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cargo Pants</h5>
+                        <p class="card-text">Bring a practical touch to your wardrobe with casual cargo pants that pair well with T-shirts and sneakers.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mens Card 9 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbtw_HBZqKDggTkzMHT4djxuUw0zfb9pLpaQKeUzHiOLIxrSAP_WcbIiWR&s=10"
+                         class="card-img-top product-img" alt="Mens product 9">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Casual Sneakers</h5>
+                        <p class="card-text">Finish your everyday outfits with versatile sneakers designed for a clean look and comfortable casual styling.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mens Card 10 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://classicvibe.pk/uploads/products/998c391db04ef899.webp"
+                         class="card-img-top product-img" alt="Mens product 10">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Classic Wallet</h5>
+                        <p class="card-text">Keep your everyday essentials organized with a classic wallet featuring a timeless and versatile design.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--  WOMENS SECTION  -->
+
+    <section id="womens" class="container py-5">
+
+        <h2 class="section-title text-center fw-bold mb-4">
+            Womens
+        </h2>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+            <!-- Womens Card 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://img.kwcdn.com/product/fancy/7bf24fb4-542d-4f60-a4f4-2b93e6b5ecbc.jpg" class="card-img-top product-img" alt="Womens product 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Floral Summer Dress</h5>
+                        <p class="card-text">Bring a fresh touch to your wardrobe with this floral dress, perfect for casual outings and daytime occasions.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Womens Card 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC9OwI2u8nFuIOAIOHFlbIs-yqgh4beS8t68JqMjOJgdszrm3q-b9UE-0&s=10" class="card-img-top product-img" alt="Womens product 2">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">High-Waist Jeans</h5>
+                        <p class="card-text">Style these high-waist jeans with your favorite tops for a versatile everyday outfit.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Womens Card 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/53/7983914/1.jpg?4822" class="card-img-top product-img" alt="Womens product 3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Elegant Blouse</h5>
+                        <p class="card-text">Add a polished finish to your outfit with an elegant blouse suitable for work, gatherings and everyday wear.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Womens Card 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZNsut9NuPucPyhjznwX9j38gSH-r5Asq0u-ZwkmbheA&s" class="card-img-top product-img" alt="Womens product 4">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Soft Knit Cardigan</h5>
+                        <p class="card-text">Layer up in style with a soft knit cardigan that complements jeans, dresses and casual outfits.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Womens Card 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://www.ndure.com/cdn/shop/files/5_c7814d0e-4dfc-4498-9e66-8089c1a14ecd.jpg?v=1783080499" class="card-img-top product-img" alt="Womens product 5">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Everyday Sneakers</h5>
+                        <p class="card-text">Pair these versatile sneakers with casual outfits for a relaxed look on shopping trips and daily outings.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Womens Card 6 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAaouKJtC8x3lxwAhOISbSnxXY3oXrSx4ZY7wVFgbKtA&s" class="card-img-top product-img" alt="Womens product 6">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Everyday Handbag</h5>
+                        <p class="card-text">Carry your essentials in a versatile handbag that adds a stylish finishing touch to your daily look.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Womens Card 7 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjuAk0tywqw_LhqMr7GpH0kV8Y1a4o3eJ4g_xJWrdKLQ&s" class="card-img-top product-img" alt="Womens product 7">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Wide-Leg Trousers</h5>
+                        <p class="card-text">Create a modern outfit with wide-leg trousers that pair beautifully with shirts, blouses and simple tops.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Womens Card 8 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ZXvbbRabXegLV2mjAleI-a3vYKLdQa4ICDxANFTN2iJsRFoL0pl8P9jM&s=10" class="card-img-top product-img" alt="Womens product 8">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Classic Blazer</h5>
+                        <p class="card-text">Give your wardrobe a refined look with a classic blazer that works well for office outfits and special occasions.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Womens Card 9 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://starlet.pk/cdn/shop/files/0048_MML-0002GLD_3.jpg?v=1771237100" class="card-img-top product-img" alt="Womens product 9">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Classic Flat Shoes</h5>
+                        <p class="card-text">Complete your everyday wardrobe with versatile flat shoes that complement dresses, trousers and casual looks.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Womens Card 10 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://www.miniwear.pk/cdn/shop/files/girls_black_lounge_set_kids_2_piece_outfit_Pakistan.png?v=1776451159&width=1000" class="card-img-top product-img" alt="Womens product 10">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cotton Lounge Set</h5>
+                        <p class="card-text">Relax in a soft, casual lounge set designed for comfortable evenings and laid-back days at home.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--  KIDS SECTION  -->
+
+    <section id="kids" class="container py-5">
+
+        <h2 class="section-title text-center fw-bold mb-4">
+            Kids
+        </h2>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+            <!-- Kids Card 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://harwage.pk/cdn/shop/files/wewear_0162_Backgroundcopy12_205962f5-081b-47a7-8f12-c1ca4ba546aa.jpg?v=1787653203" class="card-img-top product-img" alt="Kids product 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Kids Cotton T-Shirt</h5>
+                        <p class="card-text">A fun everyday T-shirt made for playful outfits, casual adventures and comfortable daily wear.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kids Card 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqdQQDA9YCo0hrl45wmsNxA-ksyoWgE6Z1zLYpOuFZ4A&s" class="card-img-top product-img" alt="Kids product 2">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Kids Denim Jeans</h5>
+                        <p class="card-text">Versatile denim jeans for little adventures, easily paired with T-shirts, sweatshirts and casual shirts.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kids Card 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwd0yCQ95i96VykcgbXrzC2xS_AZ0Qa0d42OMdfGKf1EI8B3vIioGwxsng&s=10" class="card-img-top product-img" alt="Kids product 3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Kids Hoodie</h5>
+                        <p class="card-text">Keep casual outfits cozy with a versatile hoodie that's great for cooler days and outdoor play.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kids Card 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://image.metroshoes.com/cdn-cgi/image/width=660,quality=85,format=auto/products/74-442/550/74-442M26.jpg" class="card-img-top product-img" alt="Kids product 4">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Kids Casual Sneakers</h5>
+                        <p class="card-text">Add a sporty touch to kids' everyday outfits with versatile sneakers for outings and playtime.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kids Card 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/5298b2030a8798d8e500e329370f20bc.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp" class="card-img-top product-img" alt="Kids product 5">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Kids Summer Dress</h5>
+                        <p class="card-text">A cheerful summer dress for family outings, celebrations and everyday moments.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kids Card 6 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://i5.walmartimages.ca/asr/cc592e80-8c72-4dbb-8bba-7e8d622df65a.c6c108ce24154863dcd0ae13dfcc5b64.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" class="card-img-top product-img" alt="Kids product 6">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Kids Matching Outfit Set</h5>
+                        <p class="card-text">Make dressing simple with a coordinated outfit set for casual days, trips and family gatherings.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kids Card 7 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/465073s.jpg?im=Resize,width=750" class="card-img-top product-img" alt="Kids product 7">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Kids Lightweight Jacket</h5>
+                        <p class="card-text">A handy extra layer for changing weather, with a casual style that works for everyday adventures.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kids Card 8 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsNGulEo5PuS2ptKrI4XXPf4EnRS0HoPBmfB8yZMKnvHj1cqAy8sevF2E&s=10" class="card-img-top product-img" alt="Kids product 8">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Kids Casual Shorts</h5>
+                        <p class="card-text">Keep summer outfits easy and relaxed with casual shorts that pair well with everyday T-shirts.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kids Card 9 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDBUAqTUb08VTqCYEFlj_pu3IgsCfFy3f5awxHoAzhE_7d99szdQZW7u8&s=10" class="card-img-top product-img" alt="Kids product 9">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Kids School Backpack</h5>
+                        <p class="card-text">Carry school supplies and everyday essentials in a practical backpack with a fun, colorful look.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kids Card 10 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdYgQg-TBqY6VTRljlpdoCViJsc0ITQP_LW6oNoVMhWTo6cT2wh0xTDFH&s=10" class="card-img-top product-img" alt="Kids product 10">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Kids Sleepwear Set</h5>
+                        <p class="card-text">A cheerful sleepwear set for relaxed evenings and bedtime routines, with a playful design for kids.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+    <div class="footer-content">
+        <h5>Style Store</h5>
+        <p>Discover your style with our latest fashion collections for Men, Women, and Kids.</p>
+
+        <div class="footer-links">
+            <a href="#mens">Mens</a>
+            <a href="#womens">Womens</a>
+            <a href="#kids">Kids</a>
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Style Store. All rights reserved.
+        </p>
+    </div>
+</footer>
+    
+
+</body>
+</html>

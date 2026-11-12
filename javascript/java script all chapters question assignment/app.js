@@ -1052,3 +1052,180 @@
 // }
 
 // ---->chapter 10,11 Ends here <----
+
+
+// ---->chapter 12,13,14 Starts here <----
+
+// q1:- Write a program that takes a character (number or string)
+// in a variable & checks whether the given input is a
+// number, uppercase letter or lower case letter. (Hint: ASCII
+// codes:- A=65, Z=90, a=97, z=122).
+
+// Answer
+
+// var character = prompt("Enter a character:");
+
+// var ascii = character.charCodeAt(0);
+
+// if (character.length == 1 && ascii >= 48 && ascii <= 57) {
+//     alert("It is a Number");
+// }
+// else if (character.length == 1 && ascii >= 65 && ascii <= 90) {
+//     alert("It is an Uppercase Letter");
+// }
+// else if (character.length == 1 && ascii >= 97 && ascii <= 122) {
+//     alert("It is a Lowercase Letter");
+// }
+// else {
+//     alert("Invalid Input");
+// }
+
+
+
+// q2:- Write a JavaScript program that accept two integers and
+// display the larger. Also show if the two integers are equal.
+
+// Answer
+
+// var num1 = Number(prompt("Enter first integer:"));
+
+// var num2 = Number(prompt("Enter second integer:"));
+
+// if (num1 > num2) {
+//     alert(num1 + " is larger");
+// }
+// else if (num2 > num1) {
+//     alert(num2 + " is larger");
+// }
+// else {
+//     alert("Both integers are equal");
+// }
+
+
+// q3:- Write a program that takes input a number from user &
+// state whether the number is positive, negative or zero.
+
+// Answer
+
+// var number = Number(prompt("Enter a number:"));
+
+// if (number > 0) {
+//     alert("The number is Positive");
+// }
+// else if (number < 0) {
+//     alert("The number is Negative");
+// }
+// else {
+//     alert("The number is Zero");
+// }
+
+
+
+// q4:- Write a program that takes a character (i.e. string of
+// length 1) and returns true if it is a vowel, false otherwise
+
+// Answer
+
+// var letter = prompt("Enter a character:");
+
+// if (letter.length == 1 &&
+//     (letter == "a" || letter == "e" ||
+//      letter == "i" || letter == "o" ||
+//      letter == "u" || letter == "A" ||
+//      letter == "E" || letter == "I" ||
+//      letter == "O" || letter == "U")) {
+
+//     alert(true);
+// }
+// else {
+//     alert(false);
+// }
+
+
+
+// q5:- Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+// i. Check if user has entered password. If not, then
+// give message “ Please enter your password”
+// ii. Check if both passwords are same. If they are
+// same, show message “Correct! The password you
+// entered matches the original password”. Show
+// “Incorrect password” otherwise.
+
+// Answer
+
+// a. Store correct password
+
+// var correctPassword = "12345";
+
+// b. Ask user to enter password
+
+// var userPassword = prompt("Enter your password:");
+
+// c. Validate passwords
+
+// if (userPassword == "" || userPassword == null) {
+    // alert("Please enter your password");
+// }
+// else if (userPassword == correctPassword) {
+//     alert("Correct! The password you entered matches the original password");
+// }
+// else {
+//     alert("Incorrect password");
+// }
+
+
+
+// q6:- This if/else statement does not work. Try to fix it:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// else
+// greeting = "Good evening";
+// }
+
+// Answer
+
+// var greeting;
+
+// var hour = 13;
+
+// if (hour < 18) {
+//     greeting = "Good day";
+// }
+// else {
+//     greeting = "Good evening";
+// }
+
+// alert(greeting);
+
+
+// q7:- Write a program that takes time as input from user in 24
+// hours clock format like: 1900 = 7pm. Implement the
+// following case using if, else & else if statements
+
+// Answer
+
+// var time = Number(prompt("Enter time in 24 hours format (e.g. 1900):"));
+
+// if (time >= 0 && time < 1200) {
+//     alert("Good morning");
+// }
+// else if (time >= 1200 && time < 1700) {
+//     alert("Good afternoon");
+// }
+// else if (time >= 1700 && time < 2100) {
+//     alert("Good evening");
+// }
+// else if (time >= 2100 && time <= 2359) {
+//     alert("Good night");
+// }
+// else {
+//     alert("Invalid Time");
+// }
+
+
+// ---->chapter 12,13,14 Ends here <----

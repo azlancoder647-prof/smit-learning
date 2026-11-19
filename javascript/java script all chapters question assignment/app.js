@@ -1229,3 +1229,134 @@
 
 
 // ---->chapter 12,13,14 Ends here <----
+
+// ---->chapter 15,16,17 Starts here <----
+
+
+// Question 1
+// var studentNames = [];
+
+// Question 2
+// var studentNamesObj = ();
+
+// Question 3
+// var stringArr = ["Apple", "Banana", "Mango"];
+
+// Question 4
+// var numberArr = [10, 20, 30, 40];
+
+// Question 5
+// var booleanArr = [true, false, true, false];
+
+// Question 6
+// var mixedArr = ["Ali", 25, true, null];
+
+// Question 7
+// var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+// document.write("<h2>Qualifications:</h2>");
+// document.write("1) " + qualifications[0] + "<br>");
+// document.write("2) " + qualifications[1] + "<br>");
+// document.write("3) " + qualifications[2] + "<br>");
+// document.write("4) " + qualifications[3] + "<br>");
+// document.write("5) " + qualifications[4] + "<br>");
+// document.write("6) " + qualifications[5] + "<br>");
+// document.write("7) " + qualifications[6] + "<br>");
+// document.write("8) " + qualifications[7] + "<br><br>");
+
+// Question 8
+// var students = ["Michael", "John", "Tony"];
+// var scores = [320, 230, 480];
+// var totalMarks = 500;
+// var perc0 = (scores[0] / totalMarks) * 100;
+// var perc1 = (scores[1] / totalMarks) * 100;
+// var perc2 = (scores[2] / totalMarks) * 100;
+// document.write("Score of " + students[0] + " is " + scores[0] + ". Percentage: " + perc0 + "%<br>");
+// document.write("Score of " + students[1] + " is " + scores[1] + ". Percentage: " + perc1 + "%<br>");
+// document.write("Score of " + students[2] + " is " + scores[2] + ". Percentage: " + perc2 + "%<br><br>");
+
+// Question 9
+// var colors = ["Red", "Green", "Blue"];
+// document.write("Initial Colors: " + colors + "<br><br>");
+
+// var addBegin = prompt("Which color do you want to add to the beginning?");
+// colors.unshift(addBegin);
+// document.write("After adding to beginning: " + colors + "<br><br>");
+
+// var addEnd = prompt("Which color do you want to add to the end?");
+// colors.push(addEnd);
+// document.write("After adding to end: " + colors + "<br><br>");
+
+// colors.unshift("Purple", "Orange");
+// document.write("After adding two more colors to beginning: " + colors + "<br><br>");
+
+// colors.shift();
+// document.write("After deleting first color: " + colors + "<br><br>");
+
+// colors.pop();
+// document.write("After deleting last color: " + colors + "<br><br>");
+
+// var addIndex = +prompt("At which index do you want to add a color?");
+// var colorName = prompt("Enter the color name:");
+// colors.splice(addIndex, 0, colorName);
+// document.write("After adding color at index " + addIndex + ": " + colors + "<br><br>");
+
+// var delIndex = +prompt("At which index do you want to delete color(s)?");
+// var delCount = +prompt("How many colors do you want to delete?");
+// colors.splice(delIndex, delCount);
+// document.write("After deleting " + delCount + " color(s) from index " + delIndex + ": " + colors + "<br><br>");
+
+// Question 10
+// var studentScores = [320, 230, 480, 120];
+// document.write("Scores of Students : " + studentScores + "<br>");
+// studentScores.sort();
+// document.write("Ordered Scores of Students : " + studentScores + "<br><br>");
+
+// Question 11
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+// var selectedCities = cities.slice(2, 5);
+// document.write("Cities list:<br>" + cities + "<br><br>");
+// document.write("Selected cities list:<br>" + selectedCities + "<br><br>");
+
+// Question 12
+// var arr = ["This ", " is ", " my ", " cat"];
+// var singleString = arr.join("");
+// document.write("Array:<br>" + arr + "<br><br>");
+// document.write("String:<br>" + singleString + "<br><br>");
+
+// Question 13
+// var devices = [];
+// devices.push("keyboard");
+// devices.push("mouse");
+// devices.push("printer");
+// devices.push("monitor");
+// document.write("Devices:<br>" + devices + "<br><br>");
+// document.write("Out:<br>" + devices.shift() + "<br>");
+// document.write("Out:<br>" + devices.shift() + "<br>");
+// document.write("Out:<br>" + devices.shift() + "<br>");
+// document.write("Out:<br>" + devices.shift() + "<br><br>");
+
+// Question 14
+// var devicesLifo = [];
+// devicesLifo.push("keyboard");
+// devicesLifo.push("mouse");
+// devicesLifo.push("printer");
+// devicesLifo.push("monitor");
+// document.write("Devices:<br>" + devicesLifo + "<br><br>");
+// document.write("Out:<br>" + devicesLifo.pop() + "<br>");
+// document.write("Out:<br>" + devicesLifo.pop() + "<br>");
+// document.write("Out:<br>" + devicesLifo.pop() + "<br>");
+// document.write("Out:<br>" + devicesLifo.pop() + "<br><br>");
+
+// Question 15
+// var manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// document.write("<select>");
+// document.write("<option>" + manufacturers[0] + "</option>");
+// document.write("<option>" + manufacturers[1] + "</option>");
+// document.write("<option>" + manufacturers[2] + "</option>");
+// document.write("<option>" + manufacturers[3] + "</option>");
+// document.write("<option>" + manufacturers[4] + "</option>");
+// document.write("<option>" + manufacturers[5] + "</option>");
+// document.write("</select>");
+
+
+// ---->chapter 15,16,17 Ends here <----

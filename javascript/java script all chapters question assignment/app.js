@@ -1360,3 +1360,129 @@
 
 
 // ---->chapter 15,16,17 Ends here <----
+
+// chapter 18,19,20 starts here array and loop---->
+
+//q1
+
+// var multi_Arr=[[]];
+// console.log(multi_Arr)
+
+//q2
+
+// var multi_Arr2= [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+
+// console.log(multi_Arr2)
+
+
+//q3
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log(i);
+// }
+
+//q4
+
+// var tableNum = +prompt("Enter a number to show its multiplication table");
+// var tableLength = +prompt("Enter length multiplication table");
+
+// console.log("Multiplication table of " + tableNum);
+// console.log("Length " + tableLength);
+
+// for (var i = 1; i <= tableLength; i++) {
+//     console.log(tableNum + " x " + i + " = " + (tableNum * i));
+// }
+
+// q5
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];   
+
+// for (var i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+
+// console.log("Element at index 0 is " + fruits[0]);
+// console.log("Element at index 1 is " + fruits[1]);
+// console.log("Element at index 2 is " + fruits[2]);
+// console.log("Element at index 3 is " + fruits[3]);
+// console.log("Element at index 4 is " + fruits[4]);
+ 
+
+//q6
+
+// console.log("Counting:");
+// for (var i = 1; i <= 15; i++) {
+//     console.log(i);
+// }
+
+// console.log("Reverse Counting:");
+// for (var i = 10; i >= 1; i--) {
+//     console.log(i);
+// }    
+
+
+// console.log("Even:");
+// for (var i = 0; i <= 20; i += 2) {
+//     console.log(i);
+// }
+
+// console.log("Odd:");
+// for (var i = 1; i <= 19; i += 2) {
+//     console.log(i);
+// }
+
+// console.log("Series:");
+// for (var i = 2; i <= 20; i += 2) {
+//     console.log(i + "k");
+// }
+
+//q7
+
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var searchItem = prompt("Welcome to ABC Bakery. What do you want to order?").toLowerCase();
+// var found = false;
+
+// for (var i = 0; i < A.length; i++) {
+//     if (A[i] === searchItem) {
+//         found = true;
+//         alert(searchItem + " is available at index " + i + " in our bakery.");
+//         break;
+//     }
+// }
+// if (!found) {
+//     alert("We are sorry. " + searchItem + " is not available in our bakery.");
+// }
+
+//q8
+
+// var A = [24, 53, 78, 91, 12];
+// var largest = A[0];
+
+// for (var i = 1; i < A.length; i++) {
+//     if (A[i] > largest) {
+//         largest = A[i];
+//     }
+// }
+
+// console.log("The largest number is " + largest);
+
+//q9
+
+// var A = [24, 53, 78, 91, 12];
+// var smallest = A[0];
+// for (var i = 1; i < A.length; i++) {
+//     if (A[i] < smallest) {
+//         smallest = A[i];
+//     }
+// }
+// console.log("The smallest number is " + smallest);
+
+
+//q10
+
+// for (var i = 1; i <= 20; i++) {
+//     var multipleOf5 = i * 5;
+//     console.log(multipleOf5);
+// }
+
+// chapter 18,19,20 ends here array and loop---->

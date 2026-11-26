@@ -1486,3 +1486,6 @@
 // }
 
 // chapter 18,19,20 ends here array and loop---->
+
+
+// yaha 1 se le ke 20 chapters tk ke q/a hn 
